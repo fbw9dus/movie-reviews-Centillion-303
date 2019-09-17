@@ -1,0 +1,50 @@
+.column {
+  float: left;
+  border: 1px solid black; }
+  .column:nth-of-type(1) {
+    width: 25%;
+    height: 100vh; }
+  .column:nth-of-type(2) {
+    width: 75vw;
+    padding: 50px 20px;
+    position: relative;
+    background-color: #4d4d4d; }
+
+.nav {
+  overflow: scroll; }
+
+.text-block {
+  position: absolute;
+  top: 5%;
+  right: 20px;
+  left: 20px;
+  height: 80%;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: .9; }
+
+.nav a {
+  text-decoration: none;
+  display: block;
+  background-color: #4d4d4d;
+  color: white;
+  text-align: left;
+  width: 100%;
+  border-bottom: 8px solid gray; }
+  .nav a:hover {
+    text-decoration: none; }
+
+a.active, .nav a:hover {
+  background-color: #262626;
+  color: white;
+  width: 100%; }
+
+.pic {
+  width: 200px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px; }
+
+/*# sourceMappingURL=style.css.map */
